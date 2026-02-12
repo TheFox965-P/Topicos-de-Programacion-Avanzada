@@ -1,0 +1,3 @@
+C:\Users\angel\source\repos\ProyectFP1\ProyectFP1\x64\Debug\ProyectFP1.vcxproj.AssemblyReference.cache
+C:\Users\angel\source\repos\ProyectFP1\ProyectFP1\x64\Debug\ProyectFP1.MainForm.resources
+C:\Users\angel\source\repos\ProyectFP1\ProyectFP1\x64\Debug\ProyectFP1.vcxproj.GenerateResource.cache
