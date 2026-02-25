@@ -1,0 +1,2 @@
+﻿POO.obj : error LNK2005: main already defined in main.obj
+C:\Users\angel\source\repos\POO\x64\Debug\POO.exe : fatal error LNK1169: one or more multiply defined symbols found
