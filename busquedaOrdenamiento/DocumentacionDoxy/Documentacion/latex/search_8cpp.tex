@@ -1,0 +1,68 @@
+\doxysection{search.\+cpp File Reference}
+\hypertarget{search_8cpp}{}\label{search_8cpp}\index{search.cpp@{search.cpp}}
+{\ttfamily \+\#include $<$iostream$>$}\newline
+{\ttfamily \+\#include "{}search.\+h"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \doxymbox{\hyperlink{search_8cpp_a41ea51647fa660c936e94f97b009e05b}{busqueda\+Secuencial}} (int arreglo\+[$\,$]\+, int n, int valor, bool mostrar\+Proceso)
+\begin{DoxyCompactList}\small\item\em Realiza una búsqueda secuencial. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{search_8cpp_a4d73ae5632cefb1389d761a6c4b2141d}{busqueda\+Binaria}} (int arreglo\+[$\,$]\+, int n, int valor, bool mostrar\+Proceso)
+\begin{DoxyCompactList}\small\item\em Realiza una búsqueda binaria. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{search_8cpp_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{search_8cpp_a4d73ae5632cefb1389d761a6c4b2141d}\index{search.cpp@{search.cpp}!busquedaBinaria@{busquedaBinaria}}
+\index{busquedaBinaria@{busquedaBinaria}!search.cpp@{search.cpp}}
+\doxysubsubsection{\texorpdfstring{busquedaBinaria()}{busquedaBinaria()}}
+{\footnotesize\ttfamily \label{search_8cpp_a4d73ae5632cefb1389d761a6c4b2141d} 
+int busqueda\+Binaria (\begin{DoxyParamCaption}\item[{int}]{arreglo}{\+[$\,$]\+, }\item[{int}]{n}{, }\item[{int}]{valor}{, }\item[{bool}]{mostrar\+Proceso}{}\end{DoxyParamCaption})}
+
+
+
+Realiza una búsqueda binaria. 
+
+El arreglo debe estar previamente ordenado.
+
+
+\begin{DoxyParams}{Parameters}
+{\em arreglo} & Arreglo ordenado. \\
+\hline
+{\em n} & Tamaño del arreglo. \\
+\hline
+{\em valor} & Valor a buscar. \\
+\hline
+{\em mostrar\+Proceso} & Muestra pasos intermedios. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Posición encontrada o -\/1 si no existe. 
+\end{DoxyReturn}
+\Hypertarget{search_8cpp_a41ea51647fa660c936e94f97b009e05b}\index{search.cpp@{search.cpp}!busquedaSecuencial@{busquedaSecuencial}}
+\index{busquedaSecuencial@{busquedaSecuencial}!search.cpp@{search.cpp}}
+\doxysubsubsection{\texorpdfstring{busquedaSecuencial()}{busquedaSecuencial()}}
+{\footnotesize\ttfamily \label{search_8cpp_a41ea51647fa660c936e94f97b009e05b} 
+int busqueda\+Secuencial (\begin{DoxyParamCaption}\item[{int}]{arreglo}{\+[$\,$]\+, }\item[{int}]{n}{, }\item[{int}]{valor}{, }\item[{bool}]{mostrar\+Proceso}{}\end{DoxyParamCaption})}
+
+
+
+Realiza una búsqueda secuencial. 
+
+Recorre el arreglo comparando elemento por elemento.
+
+
+\begin{DoxyParams}{Parameters}
+{\em arreglo} & Arreglo de datos. \\
+\hline
+{\em n} & Tamaño del arreglo. \\
+\hline
+{\em valor} & Valor a buscar. \\
+\hline
+{\em mostrar\+Proceso} & Muestra las comparaciones si es true. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Posición encontrada o -\/1 si no existe. 
+\end{DoxyReturn}

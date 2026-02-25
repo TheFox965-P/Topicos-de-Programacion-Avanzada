@@ -1,0 +1,72 @@
+\doxysection{numeros\+Random.\+cpp File Reference}
+\hypertarget{numeros_random_8cpp}{}\label{numeros_random_8cpp}\index{numerosRandom.cpp@{numerosRandom.cpp}}
+{\ttfamily \+\#include $<$iostream$>$}\newline
+{\ttfamily \+\#include $<$cstdlib$>$}\newline
+{\ttfamily \+\#include $<$ctime$>$}\newline
+{\ttfamily \+\#include $<$unordered\+\_\+set$>$}\newline
+{\ttfamily \+\#include "{}numeros\+Random.\+h"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \doxymbox{\hyperlink{numeros_random_8cpp_a15b48c8190d0538962b81d93d343bfec}{menu\+Generacion}} ()
+\begin{DoxyCompactList}\small\item\em Muestra el menú para elegir si se permiten números repetidos. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{numeros_random_8cpp_a50dd95e55364353d3a1996304140a054}{submenu\+Complejidad}} ()
+\begin{DoxyCompactList}\small\item\em Permite seleccionar el tipo de tamaño del arreglo. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{numeros_random_8cpp_adb84b39fbd4a683bf11067f82fb1bd4b}{generar\+Numeros}} (int arreglo\+[$\,$]\+, int \&n, bool repetir, int tipo)
+\begin{DoxyCompactList}\small\item\em Genera números aleatorios según la configuración seleccionada. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{numeros_random_8cpp_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{numeros_random_8cpp_adb84b39fbd4a683bf11067f82fb1bd4b}\index{numerosRandom.cpp@{numerosRandom.cpp}!generarNumeros@{generarNumeros}}
+\index{generarNumeros@{generarNumeros}!numerosRandom.cpp@{numerosRandom.cpp}}
+\doxysubsubsection{\texorpdfstring{generarNumeros()}{generarNumeros()}}
+{\footnotesize\ttfamily \label{numeros_random_8cpp_adb84b39fbd4a683bf11067f82fb1bd4b} 
+void generar\+Numeros (\begin{DoxyParamCaption}\item[{int}]{arreglo}{\+[$\,$]\+, }\item[{int \&}]{n}{, }\item[{bool}]{repetir}{, }\item[{int}]{tipo}{}\end{DoxyParamCaption})}
+
+
+
+Genera números aleatorios según la configuración seleccionada. 
+
+Puede generar números con repetición o sin repetición.
+
+
+\begin{DoxyParams}{Parameters}
+{\em arreglo} & Arreglo donde se almacenan los números generados. \\
+\hline
+{\em n} & Referencia al tamaño final del arreglo. \\
+\hline
+{\em repetir} & Indica si se permiten números repetidos. \\
+\hline
+{\em tipo} & Tipo de tamaño seleccionado (n, n\texorpdfstring{$\ast$}{*}n, n\texorpdfstring{$\ast$}{*}m). \\
+\hline
+\end{DoxyParams}
+\Hypertarget{numeros_random_8cpp_a15b48c8190d0538962b81d93d343bfec}\index{numerosRandom.cpp@{numerosRandom.cpp}!menuGeneracion@{menuGeneracion}}
+\index{menuGeneracion@{menuGeneracion}!numerosRandom.cpp@{numerosRandom.cpp}}
+\doxysubsubsection{\texorpdfstring{menuGeneracion()}{menuGeneracion()}}
+{\footnotesize\ttfamily \label{numeros_random_8cpp_a15b48c8190d0538962b81d93d343bfec} 
+int menu\+Generacion (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Muestra el menú para elegir si se permiten números repetidos. 
+
+\begin{DoxyReturn}{Returns}
+int Opción seleccionada por el usuario. 
+\end{DoxyReturn}
+\Hypertarget{numeros_random_8cpp_a50dd95e55364353d3a1996304140a054}\index{numerosRandom.cpp@{numerosRandom.cpp}!submenuComplejidad@{submenuComplejidad}}
+\index{submenuComplejidad@{submenuComplejidad}!numerosRandom.cpp@{numerosRandom.cpp}}
+\doxysubsubsection{\texorpdfstring{submenuComplejidad()}{submenuComplejidad()}}
+{\footnotesize\ttfamily \label{numeros_random_8cpp_a50dd95e55364353d3a1996304140a054} 
+int submenu\+Complejidad (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Permite seleccionar el tipo de tamaño del arreglo. 
+
+Opciones:\+ n, n\texorpdfstring{$\ast$}{*}n o n\texorpdfstring{$\ast$}{*}m.
+
+\begin{DoxyReturn}{Returns}
+int Tipo seleccionado. 
+\end{DoxyReturn}
